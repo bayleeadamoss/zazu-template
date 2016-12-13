@@ -1,0 +1,14 @@
+{
+  "name": "zazu-template",
+  "version": "1.0.0",
+  "description": "Zazu Template for starting your own plugin.",
+  "main": "zazu.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "license": "Unlicense",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
