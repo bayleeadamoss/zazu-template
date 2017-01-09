@@ -12,7 +12,7 @@ module.exports = (pluginContext) => {
             icon: 'fa-hand-spock-o',
             title,
             subtitle: 'Please type your name!',
-          }
+          },
         ])
       })
     },
