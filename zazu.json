@@ -17,8 +17,21 @@
       },
       {
         "id": "hello",
-        "type": "RootScript",
-        "script": "src/hello.js"
+        "type": "Keyword",
+        "keyword": "hello",
+        "title": "Hello!",
+        "subtitle": "Please type your name!",
+        "icon": "fa-hand-spock-o",
+        "connections": ["GoHome"]
+      },
+      {
+        "id": "hello-name",
+        "type": "PrefixScript",
+        "prefix": "hello",
+        "space": true,
+        "args": "Required",
+        "script": "src/hello.js",
+        "connections": ["GoHome"]
       }
     ],
     "output": [
